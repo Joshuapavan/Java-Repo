@@ -1,0 +1,5 @@
+Write a function to truncate a given number to the nearest 1000.
+Round up and Round down for a given number to the nearest 100.
+There is a circle inscribed in a square such that all sides touch the circumference of the circle. Write a program to calculate the area inside the square excluding the circle if the size of the square is given as an input.
+Write a program to find overflow when two short values are added and assigned to another short value.
+Take a character as an input and display its position in the a-z.

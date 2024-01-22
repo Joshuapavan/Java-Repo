@@ -1,0 +1,46 @@
+Session 5 Programs
+
+Problem Statement : 
+
+Create a Class for an online clothing merchant which would contain the below information 
+Clothing Name eg:- Pink Linen Shirt by HRX
+Material Type eg:- jean, lenin, silk, cotton and so on
+Clothing Type eg:- options could be for ex, t-shirt, shirt, pant, tops, bottoms, skirt, mini, Saree, Lehenga and so on
+Brand eg:- levis, jockey, pepe jeans, killer, gucci, HRX and so on
+Gender Suited eg:- Male, Female, and UniSex ( - size, dimension and type of clothing)
+Colour of the material eg: red, green, blue, maroon, white, yellow and so on
+Size of Clothing, should be different based on gender. eg:- M, L, XL, XXL
+Dimensions based on the size chosen, Gender and Clothing type eg:-  M size for male can be Chest size, shoulder size 80-90
+MRP Price per unit retail eg:- 5000
+Discount Percentage eg:- 20%
+Rating eg: 4 stars
+Delivery time eg:- 2 days or 4 days or so on
+Minimum No for Bulk Purchase(can be different for each item and can be configured) eg: 10
+Percentage of discount for different bulk options(can be different for each item and can be configured)  eg:- 10- 5%, 20-7%, 50 -10%
+Quantity available for different sizes: 100 
+
+
+//------------------------------------------------------------------------------------------------------//
+Define a class and data structures to store all the above information for a specific type of clothing that needs to be added.
+
+Define 2 overloaded functions which add all the above information onto the object, one with bulk purchase option enabled and one without it enabled. Add around 20 random objects using the above defined overloaded functions for adding.
+
+Write a function which displays all the items added onto the database and displays all the options which have been added for the complete list.
+
+Write a search function to showcase all the items onto the user whose price range matches the bracket as given for an input from the user.
+
+Write a function which will input a specific rating as given by the user and assign it in the object.
+
+Write a function to showcase a user input specific dimension, colour, rating and price range and output the specific items which suit the above selection.
+
+Write a function where the user inputs the gender, size and dimensions to which the required items are searched and displayed.
+
+Write a function which lists only the items with the bulk discount percentages for a specific gender type and the bulk numbers to match the percentage should be taken as an user input.
+Example : Show items whose bulk discount percentage is greater than 10 percent for a minimum of 10 units for male.
+
+Write a function which showcases all the objects which have a predefined user discount matching. For eg: upto 10% off, 10-20% off, 20-30% off, 30-50% off and >50% off.
+
+Write a function to show all items in the database which are delivered within the timeframe as defined by the user.
+
+Write a function to sort ascending, descending order of MRP, ascending and descending discounted price, and the newness of the objects entered onto the database.
+

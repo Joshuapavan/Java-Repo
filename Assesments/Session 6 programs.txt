@@ -1,0 +1,5 @@
+Session 6 Programs
+
+1. Design a user registration class with name, phone no, email and pan no entered. 
+
+2. Design a user wallet where the user could add money onto the wallet from different banking options. Also make sure the wallet is maintained when a cashback is added or money is removed from any utility payment. The user should always have an option to see his wallet payments balance along with the complete statement at his disposal.

@@ -1,0 +1,31 @@
+Similar to the first question, Let us encode the RGB onto a 2 byte value with red as 5 bits green as 6 bits, and blue as 5 bits.
+Example : This is a color code #C8C3. 
+Answer : The answer should be in decimal value Red - 25, green - 6, blue - 5
+
+With the resultant of the second program Replace all 1's with 0's and vice versa and get the number. 
+Example : 45 is defined as 0010 1101
+Answer should be 1101 0010. The value should be = 210
+
+Write a spell check program to replace all 'a's with 'an's if the following word starts with a vowel.
+Example : "There is a monkey eating a apple".
+Answer : "There is a monkey eating an apple".
+
+Capitalise the starting letter of all words in a string sentence.
+Example : he ate an apple under a tree.
+Answer should be : He Ate An Apple Under A Tree
+
+Reverse a string.
+Example : Java
+Answer should be avaJ
+
+Replace the numbers in words with digits in a given string. The number could be between 0 to 10.
+Example : There are Two shops near our area. 
+Ans: There are 2 shops near our area.
+
+Split the string into substrings of 3 characters each but do not take the space as a character while splitting.
+Example : HeAteAnAppleUnderATree
+Answer : HeA teA nAp ple Und erA Tre e
+
+For a given string print all the permutations of characters
+Example. space
+Answer: s, sp, spa, spac, space,p,  pa, pac, pace, a, ac, ace, c, ce, a.
