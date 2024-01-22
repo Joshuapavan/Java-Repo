@@ -1,0 +1,27 @@
+Session Programs 4: 
+
+Array Example: 10,20,36,41,-22,36,10,-88,41,20,51,36, 72, 144, 36, 55
+
+
+1. Find all the numbers which are divisible by a user input number in the array.
+2. Find the number which is repeated at least 2 times in an array.
+3. Print the sum of all numbers in an array.
+   Answer should be = 498
+
+4. How many occurances of a number input by the user. Hint : It can be 0 to upto the size of an array.
+	Ans for above array example: User inputs 20, Answer is 2
+
+5. Difference between maximum and minimum numbers in the same array.
+	
+6. Split the array into 4 equal parts and find the sum of elements of each part and output the highest value among the four.
+	
+7. Add any two consecutive values and display the values only if the sum is greater than 50. 
+	
+8. Find the number which is occurring maximum times in the above array. 
+   Ans for above array example: 36 - 3 times
+
+9. Find the number which is divisible by the previous number and the multiple of the next number.
+   Ans for above array example:72
+
+10. Form another array which contains the difference between consecutive numbers in the above array input.
+   Ans for above array example: 10, 16,5,-63,58, -26, -98, 129, -21,31,-15,36,72,-108,19
