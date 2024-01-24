@@ -1,4 +1,4 @@
-package DSA.StringAndArrays;
+package DSA.StringAndArrays.Strings;
 
 import java.util.Scanner;
 public class GetMiddleWordFromASentence {
