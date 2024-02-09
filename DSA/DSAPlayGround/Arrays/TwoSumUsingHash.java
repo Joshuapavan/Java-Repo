@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class TwoSumUsingHash {
     public static void main(String[] args) {
-        int[] array = {10, 11, 12, 13, 14, 15};
+        int[] array = {2,7,11,15};
         System.out.println("The Array is "+ Arrays.toString(array));
 
         System.out.print("Enter the target element to be found : ");
@@ -21,18 +21,24 @@ public class TwoSumUsingHash {
         }
     }
 
-    private static int[] twoSum(int[] array, int target) {
-        HashMap<Integer, Integer> twoSumHash = new HashMap<>();
+    private static int[] twoSum(int[] nums, int target) {
+        HashMap<Integer, Integer> hashMap = new HashMap<>();
 
-        for(int i : array){
-            int complement = target - i;
+        for(int i = 0 ; i < nums.length; i++){
+            int complement = target - nums[i];
 
-            if(twoSumHash.containsKey(complement)){
-                return new int[]{twoSumHash.get(complement), i };
+            if(hashMap.containsKey(complement)){
+                return new int[]{ hashMap.get(complement), i };
             }
 
-            twoSumHash.put(i,i);
+            hashMap.put(nums[i], i);
         }
-        return new int[]{-1, -1};
+        return new int[]{-1 , -1};
     }
+
+    /*
+           //        value   count
+
+    }
+     */
 }

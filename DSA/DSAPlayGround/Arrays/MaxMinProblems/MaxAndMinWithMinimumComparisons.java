@@ -1,4 +1,4 @@
-package DSA.DSAPlayGround.Arrays;
+package DSA.DSAPlayGround.Arrays.MaxMinProblems;
 
 import java.util.Arrays;
 
@@ -18,5 +18,15 @@ public class MaxAndMinWithMinimumComparisons {
         Arrays.sort(array);
         System.out.println("Minimum element is : "+array[0]);
         System.out.println("Maximum element is : "+array[array.length - 1]);
+
+        int maxVal = array[0];
+        int minVal = array[0];
+        for(int num : array){
+            maxVal = Math.max(num, maxVal);
+            minVal = Math.min(num, minVal);
+        }
+
+        System.out.println("Minimum element is : "+minVal);
+        System.out.println("Maximum element is : "+maxVal);
     }
 }

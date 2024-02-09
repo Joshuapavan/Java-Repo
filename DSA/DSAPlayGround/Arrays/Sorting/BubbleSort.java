@@ -1,4 +1,4 @@
-package DSA.DSAPlayGround.Arrays;
+package DSA.DSAPlayGround.Arrays.Sorting;
 
 import java.util.Arrays;
 import java.util.Scanner;

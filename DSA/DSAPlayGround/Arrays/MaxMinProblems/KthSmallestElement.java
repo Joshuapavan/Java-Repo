@@ -1,4 +1,4 @@
-package DSA.DSAPlayGround.Arrays;
+package DSA.DSAPlayGround.Arrays.MaxMinProblems;
 
 import java.util.ArrayList;
 import java.util.Arrays;

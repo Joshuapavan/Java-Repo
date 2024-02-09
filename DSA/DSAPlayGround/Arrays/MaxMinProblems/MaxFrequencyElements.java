@@ -1,4 +1,4 @@
-package DSA.DSAPlayGround.Arrays;
+package DSA.DSAPlayGround.Arrays.MaxMinProblems;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -39,25 +39,18 @@ public class MaxFrequencyElements {
     }
 
     private static int findMaxFrequencyElements(int[] nums) {
-        //       value    counter
-        HashMap<Integer, Integer> countHash = new HashMap<>();
-        int maxcount = 0;
-        int result = 0;
+        //   array_value, counter
+        HashMap<Integer,Integer> frequencyHash = new HashMap<>();
 
-        for(int i = 0 ; i < nums.length; i++){
-            int count = countHash.getOrDefault(nums[i], 0);
-            count++;
-
-            if(maxcount < count){
-                maxcount = count;
-                result = count;
-            }
-            else if(maxcount == count){
-                result += count;
-            }
-
-            countHash.put(nums[i], count);
+        for(int i : nums){
+            frequencyHash.put(nums[i], (frequencyHash.getOrDefault(nums[i], 0) + 1) );
         }
-        return result;
+
+        int maxCount = 0;
+        for(int frequency : frequencyHash.values()){
+            maxCount = Math.max(frequency, maxCount);
+        }
+
+        return maxCount;
     }
 }
