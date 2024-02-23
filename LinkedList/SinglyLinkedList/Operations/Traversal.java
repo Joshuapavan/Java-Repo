@@ -9,11 +9,10 @@ public class Traversal {
     }
 
     public static void traverseAndPrint(Node currentNode){
-        int index = 0;
         while(currentNode != null){
-            System.out.printf("[%d] = %d -> ",index,currentNode.value);
+            System.out.printf("%d -> ",currentNode.value);
             currentNode = currentNode.nextNode;
-            index++;
         }
+        System.out.println("null");
     }
 }
