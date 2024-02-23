@@ -18,7 +18,7 @@ public class GetDuplicatedNames {
                 namesCountHash.put(name,1);
             }
         }
-
+//        namesCountHash.entrySet().forEach(System.out::println);
         for(Map.Entry<String,Integer> entry : namesCountHash.entrySet()){
             if(entry.getValue() > 1){
                 duplicatedNames.add(entry.getKey());

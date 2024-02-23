@@ -12,13 +12,19 @@ public class GetCharCount {
 
         HashMap<Character, Integer> charIntHash = new HashMap<>();
         for(char ch : charArray){
-            if (charIntHash.containsKey(ch)){
-                charIntHash.put(ch, charIntHash.get(ch) + 1);
-            }
-            else{
-                charIntHash.put(ch, 1);
+            if(isLetter(ch)){
+                if (charIntHash.containsKey(ch)){
+                    charIntHash.put(ch, charIntHash.get(ch) + 1);
+                }
+                else{
+                    charIntHash.put(ch, 1);
+                }
             }
         }
         System.out.println("The String "+string+" contains "+charIntHash);
+    }
+
+    private static boolean isLetter(char ch) {
+        return (ch >= 96 && ch <= 122);
     }
 }
