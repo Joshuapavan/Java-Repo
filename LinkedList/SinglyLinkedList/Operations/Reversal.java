@@ -1,6 +1,7 @@
 package LinkedList.SinglyLinkedList.Operations;
 
 import LinkedList.SinglyLinkedList.Node;
+import LinkedList.SinglyLinkedList.Operations.Iteration.Traversal;
 
 public class Reversal {
 
