@@ -4,7 +4,7 @@ import LinkedList.SinglyLinkedList.Node;
 
 import java.util.Scanner;
 
-public class AddElementAtIndex {
+public class InsertionOfTheElementAtIndex {
     public static void main(String[] args) {
         Node currentNode = Node.init();
 
@@ -12,10 +12,10 @@ public class AddElementAtIndex {
         Node newNode = new Node(new Scanner(System.in).nextInt());
         System.out.println("Enter a index, where we need to insert the element (1-5)");
         int index = new Scanner(System.in).nextInt();
-        addElementAtIndex(currentNode, newNode,index);
+        insertElementAtIndex(currentNode, newNode,index);
     }
 
-    public static void addElementAtIndex(Node currentNode,Node newNode, int index){
+    public static void insertElementAtIndex(Node currentNode,Node newNode, int index){
         Node head = currentNode;
         for(int i = 0 ; i < index; i++){
             if(currentNode == null){
