@@ -1,4 +1,4 @@
-package LinkedList.SinglyLinkedList.Operations;
+package LinkedList.SinglyLinkedList.Operations.Iteration;
 
 import LinkedList.SinglyLinkedList.Node;
 

@@ -1,6 +1,7 @@
-package LinkedList.SinglyLinkedList.Operations;
+package LinkedList.SinglyLinkedList.Operations.Insertion;
 
 import LinkedList.SinglyLinkedList.Node;
+import LinkedList.SinglyLinkedList.Operations.Iteration.Traversal;
 
 import java.util.Scanner;
 

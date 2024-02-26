@@ -1,6 +1,7 @@
-package LinkedList.SinglyLinkedList.Operations;
+package LinkedList.SinglyLinkedList.Operations.Insertion;
 
 import LinkedList.SinglyLinkedList.Node;
+import LinkedList.SinglyLinkedList.Operations.Iteration.Traversal;
 
 import java.util.Scanner;
 
@@ -14,12 +15,12 @@ public class InsertionAtTheEnd {
         System.out.println("Enter the element to be added in the end of the list : ");
         Node newNode = new Node(new Scanner(System.in).nextInt());
 
-        head = addElementAtTheEnd(newNode, head);
+        addElementAtTheEnd(newNode, head);
         System.out.println("The List after adding the new element to the end is  : ");
         Traversal.traverseAndPrint(head);
     }
 
-    public static Node addElementAtTheEnd(Node newNode, Node head) {
+    public static void addElementAtTheEnd(Node newNode, Node head) {
         Node pointer = head;
         while (pointer.nextNode != null) {
             pointer = pointer.nextNode;
@@ -27,6 +28,5 @@ public class InsertionAtTheEnd {
 
         pointer.nextNode = newNode;
         newNode.nextNode = null;
-        return head;
     }
 }

@@ -1,10 +1,11 @@
-package LinkedList.DoublyLinkedList.Operations;
+package LinkedList.DoublyLinkedList.Operations.Insertion;
 
 import LinkedList.DoublyLinkedList.Node;
+import LinkedList.DoublyLinkedList.Operations.Traversal;
 
 import java.util.Scanner;
 
-public class AddElementAtIndex {
+public class InsertElementAtIndex {
     public static void main(String[] args) {
 
         Node head = Node.init();
@@ -18,10 +19,10 @@ public class AddElementAtIndex {
         System.out.println("Enter the index, where the element has to be inserted : ");
         int index = new Scanner(System.in).nextInt();
 
-        addElementAtIndex(head, newNode, index);
+        insertElementAtIndex(head, newNode, index);
     }
 
-    private static void addElementAtIndex(Node head, Node newNode, int index) {
+    private static void insertElementAtIndex(Node head, Node newNode, int index) {
 
         if(index == 0){
             head.previousNode = newNode;
