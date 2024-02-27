@@ -1,7 +1,7 @@
 package LinkedList.DoublyLinkedList.Operations.Insertion;
 
 import LinkedList.DoublyLinkedList.Node;
-import LinkedList.DoublyLinkedList.Operations.Traversal;
+import LinkedList.DoublyLinkedList.Operations.Iteration.Traversal;
 
 import java.util.Scanner;
 

@@ -15,7 +15,7 @@ public class RemoveElementByValue {
 
         head = removeElementByValue(head, value);
 
-        System.out.println(String.format("The list after removing the element with %d value is : ",value));
+        System.out.printf("The list after removing the element with %d value is : %n",value);
         Traversal.traverseAndPrint(head);
     }
 
