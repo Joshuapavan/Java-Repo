@@ -1,4 +1,4 @@
-package LinkedList.SinglyLinkedList.Operations;
+package LinkedList.SinglyLinkedList.Operations.Reversal;
 
 import LinkedList.SinglyLinkedList.Node;
 import LinkedList.SinglyLinkedList.Operations.Iteration.Traversal;
