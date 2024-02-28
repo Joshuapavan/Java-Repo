@@ -24,8 +24,8 @@ public class Reversal {
 
         while(currentNode != null){
             nextNode = currentNode.nextNode;
-            currentNode.nextNode = previousNode;
 
+            currentNode.nextNode = previousNode;
             previousNode = currentNode;
             currentNode = nextNode;
         }
